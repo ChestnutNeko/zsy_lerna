@@ -2,6 +2,8 @@
 
 ## canvas-demo
 
+![cat.jpg](imgs/cat.png)
+
 引入https://github.com/QiShaoXuan/vuepress-plugin-cat 包，右下角cat 
 npm install
 npm run serve
