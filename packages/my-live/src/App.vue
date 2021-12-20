@@ -2,16 +2,19 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- <cat /> -->
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+// import cat from '../../vuepress-plugin-cat'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    // cat
   }
 }
 </script>
