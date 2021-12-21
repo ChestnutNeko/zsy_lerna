@@ -36,7 +36,8 @@
         isLoaded: true,
         model: {
           blackCat:
-            "https://cdn.jsdelivr.net/gh/QiShaoXuan/live2DModel@1.0.0/live2d-widget-model-hijiki/assets/hijiki.model.json",
+            // "https://cdn.jsdelivr.net/gh/QiShaoXuan/live2DModel@1.0.0/live2d-widget-model-hijiki/assets/hijiki.model.json",
+            "https://unpkg.com/live2d-widget-model-shizuku@latest/assets/shizuku.model.json",
           whiteCat:
             "https://cdn.jsdelivr.net/gh/QiShaoXuan/live2DModel@1.0.0/live2d-widget-model-tororo/assets/tororo.model.json"
         },
