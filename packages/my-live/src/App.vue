@@ -2,19 +2,28 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
-    <cat />
+    <!-- <cat /> -->
+    <virtual-guide :type="type" :redPacketNum="redPacketNum" />
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-import cat from './cat-packet/cat.vue'
+// import cat from './cat-packet/cat.vue'
+import VirtualGuide from './virtualGuide'
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
-    cat
+    // cat,
+    VirtualGuide
+  },
+  data() {
+    return {
+      type: 'heng',
+      redPacketNum: 1,
+    }
   }
 }
 </script>
